@@ -15,7 +15,7 @@
         </exclude>
     </coverage>
     <testsuites>
-        <testsuite name="DTO tests">
+        <testsuite name="polymorphism tests">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

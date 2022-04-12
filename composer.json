@@ -1,6 +1,6 @@
 {
-  "name": "kuaukutsu/ds-collection",
-  "description": "Is the abstract layer which covers functionality the data structure Collection.",
+  "name": "kuaukutsu/polymorphism",
+  "description": "Example polymorphism.",
   "license": "BSD-3-Clause",
   "authors": [
     {
@@ -9,8 +9,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/kuaukutsu/ds-collection/issues",
-    "source": "https://github.com/kuaukutsu/ds-collection"
+    "issues": "https://github.com/kuaukutsu/polymorphism/issues",
+    "source": "https://github.com/kuaukutsu/polymorphism"
   },
   "require": {
     "php": ">=7.4",
