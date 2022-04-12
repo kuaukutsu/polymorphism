@@ -16,6 +16,7 @@ use function DI\create;
 require __DIR__ . '/../../vendor/autoload.php';
 
 try {
+    /** @var Color $class */
     $class = getContainer()->get(Color::class);
 } catch (DependencyException | NotFoundException | Exception $e) {
     echo $e->getMessage();
