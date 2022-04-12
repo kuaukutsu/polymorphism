@@ -1,5 +1,31 @@
 # polymorphism (example)
 
+## DI
+
+`di/index.php`
+
+```php
+try {
+    $class = getContainer()->get(Color::class);
+} catch (DependencyException | NotFoundException | Exception $e) {
+    echo $e->getMessage();
+    exit(0);
+}
+
+echo $class->getColor() . PHP_EOL;
+```
+
+## Factory
+
+`factory/index.php`
+
+```php
+$factory = new ColorFactory();
+$class = $factory->create('blue');
+
+echo $class->getColor() . PHP_EOL;
+```
+
 ## Docker
 
 local
