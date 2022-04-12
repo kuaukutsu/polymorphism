@@ -1,0 +1,39 @@
+{
+  "name": "kuaukutsu/ds-collection",
+  "description": "Is the abstract layer which covers functionality the data structure Collection.",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Dmitriy Krivopalov",
+      "email": "dimarik82@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/kuaukutsu/ds-collection/issues",
+    "source": "https://github.com/kuaukutsu/ds-collection"
+  },
+  "require": {
+    "php": ">=7.4",
+    "php-di/php-di": "^6.4"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "roave/infection-static-analysis-plugin": "^1.3",
+    "vimeo/psalm": "^4.1",
+    "phpunit/phpunit": "^9.4",
+    "psalm/plugin-phpunit": "^0.13.0",
+    "squizlabs/php_codesniffer": "*"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "kuaukutsu\\polymorphism\\": "src",
+      "kuaukutsu\\polymorphism\\tests\\": "tests"
+    }
+  }
+}
